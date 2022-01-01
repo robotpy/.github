@@ -1,6 +1,3 @@
-RobotPy
-=======
-
 RobotPy is a community of FIRST mentors and students dedicated to developing
 python-related projects for the FIRST Robotics Competition. The primary
 project we develop are packages of Python 3 and WPILib for the roboRIO
