@@ -5,3 +5,5 @@ platform intended for use in FRC. Teams can use this to write their robot
 code using Python, a powerful dynamic programming language.
 
 To get started, see our [getting started guide](http://robotpy.readthedocs.io/en/stable/getting_started.html).
+
+Interested in helping? We'd love the help! Start by looking at the issues in our [Github projects](https://github.com/orgs/robotpy/projects).
