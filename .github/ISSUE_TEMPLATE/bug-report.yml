@@ -1,0 +1,46 @@
+name: Bug Report
+description: File an issue about a bug
+title: "[BUG]: "
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Problem description
+      placeholder: >-
+        Provide a short description, state the expected behavior and what
+        actually happens.
+    validations:
+      required: true
+  
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating System
+      description: What operating system does this issue occur on?
+      multiple: true
+      options:
+        - Windows
+        - MacOS
+        - Linux
+        - RoboRIO
+        - Raspbian
+    validations:
+      required: true
+
+  - type: textarea
+    id: versions
+    attributes:
+      label: Installed Python Packages
+      placeholder: >-
+        * On RoboRIO, the output of `robotpy-installer list` when connected to a robot network
+        * On windows, the output of `py -m pip list`
+        * On other OS, the output of `pip3 list`
+      render: text
+
+  - type: textarea
+    id: code
+    attributes:
+      label: Reproducible example code
+      placeholder: >-
+        Minimal code to reproduce this issue
+      render: text
