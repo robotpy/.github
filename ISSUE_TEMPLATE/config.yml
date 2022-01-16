@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question
+    url: https://www.chiefdelphi.com/c/technical/python
+    about: Best place to ask support questions
+  - name: Gitter chat
+    url: https://gitter.im/robotpy/robotpy-wpilib
+    about: A room for discussing RobotPy, particularly active during FRC season
